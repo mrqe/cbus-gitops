@@ -1,0 +1,6 @@
+- name: Department - Enginieering
+  description: "All devices used by the engineering department."
+  label_membership_type: host_vitals
+  criteria:
+    vital: end_user_idp_department
+    value: Engineering
