@@ -113,6 +113,35 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
+  fleet_maintained_apps:
+    - slug: slack/darwin
+      self_service: true
+      
+    # iOS apps
+    # …
+    # - slug: slack/ios # Slack for iOS
+    #   self_service: true
+    #   setup_experience: true
+    #   categories:
+    #     - Communication
+
+    # iPadOS apps
+    # …
+    # - slug: slack/ipados # Slack for iPadOS
+    #   self_service: true
+    #   setup_experience: true
+    #   categories:
+    #     - Productivity
+    #     - Communication
+
+    # Android apps
+    # …
+    # - slug: slack/android # Slack for Android
+    #   self_service: true
+    #   setup_experience: true
+    #   categories:
+    #     - Productivity
+    #     - Communication
 labels:
   - name: C-Suite
     description: Hosts belonging to the C-Suite
