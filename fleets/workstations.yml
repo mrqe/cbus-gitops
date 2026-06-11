@@ -71,7 +71,9 @@ controls:
       - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
   windows_settings:
     configuration_profiles:
-      - paths: ../platforms/windows/configuration-profiles/*.xml
+      - paths: ../platforms/windows/configuration-profiles/disable-bluetooth-file-shareing.mobileconfig
+        labels_include_all:
+          - Department - Engineering
 
   ###########################################################
   # Managed disk encryption

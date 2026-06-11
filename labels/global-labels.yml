@@ -1,4 +1,4 @@
-- name: Department - Enginieering
+- name: Department - Engineering
   description: "All devices used by the engineering department."
   label_membership_type: host_vitals
   criteria:
@@ -10,4 +10,3 @@
   description: Hosts with an uptime greater than 30 days
   query: SELECT 1 FROM uptime WHERE days > 30
   label_membership_type: dynamic
-  
