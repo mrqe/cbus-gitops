@@ -78,7 +78,7 @@ software:
 packages:
   - path: ../platforms/windows/software/cloudflare-warp.yml
     self_service: false
-  app_store_apps:
+  #app_store_apps:
     ###########################################################
     # iOS apps
     ###########################################################
